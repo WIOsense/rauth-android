@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">WioAuthenticator</string>
+    <string name="dialog_select_credential">Select a Credential</string>
+
+    <string name="dialog_excludedTitle">This authenticator is excluded</string>
+    <string name="dialog_excludedSubtitle">Select either option to proceed</string>
+
+    <string name="credentials_makeTitle">Create credential request from %s</string>
+    <string name="credentials_makeSubtitle">Verify user presence!</string>
+    <string name="credentials_userName">User name: %s\n</string>
+    <string name="credentials_userId">User id: %s</string>
+
+    <string name="credentials_deleteTitle">Incoming request to delete credential</string>
+    <string name="credentials_deleteSubtitle">Delete user name %s for website %s?</string>
+    <string name="credentials_deleteAllTitle">You are requesting to delete all stored credentials</string>
+    <string name="credentials_deleteAllSubtitle">Are you sure? Verify to proceed</string>
+
+    <string name="pin_missed3Title">3 consecutive PIN missmatches, authentication blocked!</string>
+    <string name="pin_missed3Subtitle">Click here</string>
+    <string name="pin_nullPinTitle">Received empty pin</string>
+    <string name="pin_nullPinSubtitle">Verify to proceed</string>
+    <string name="pin_resetTitle">You are requesting to reset the ClientPIN"</string>
+    <string name="pin_resetSubtitle">Verify to proceed</string>
+    <string name="pin_changeTitle">You are requesting to modify the ClientPIN</string>
+    <string name="pin_changeSubtitle">Verify to proceed and apply changes</string>
+
+    <string name="reset_requestTitle">Incoming request to reset the authenticator</string>
+    <string name="reset_requestSubtitle">Are you sure? Verify to proceed</string>
+
+    <string name="request_title">Login request from %s</string>
+    <string name="request_subtitle">Verify to proceed</string>
+    <string name="request_subtitleDialog">Allow login request?</string>
+
+    <string name="extensions_txsimpleAuth_suffix">Message from server:\n</string>
+
+    <string name="u2f_registerTitle">Create U2F credential request</string>
+    <string name="u2f_registerSubtitle">Verify user presence!</string>
+    <string name="u2f_registerDummyTitle">Incoming dummy U2F request</string>
+    <string name="u2f_registerDummySubtitle">Accept to continue</string>
+
+</resources>

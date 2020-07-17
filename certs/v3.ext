@@ -1,0 +1,4 @@
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer
+basicConstraints = CA:FALSE
+1.3.6.1.4.1.45724.2.1.1=ASN1:BITSTRING:00100000
