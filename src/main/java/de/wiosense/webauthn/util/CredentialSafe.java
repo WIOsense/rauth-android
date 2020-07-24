@@ -110,7 +110,8 @@ public class CredentialSafe {
         KeyGenParameterSpec spec = new KeyGenParameterSpec.Builder(alias, KeyProperties.PURPOSE_SIGN)
                 .setAlgorithmParameterSpec(new ECGenParameterSpec(CURVE_NAME))
                 .setDigests(KeyProperties.DIGEST_SHA256)
-                .setUserAuthenticationRequired(false) // fingerprint or similar
+                .setUserAuthenticationRequired(true)
+                .setUserAuthenticationValidityDurationSeconds(120)
                 .setUserConfirmationRequired(false)
                 .setInvalidatedByBiometricEnrollment(false)
                 .setIsStrongBoxBacked(this.strongboxRequired)
